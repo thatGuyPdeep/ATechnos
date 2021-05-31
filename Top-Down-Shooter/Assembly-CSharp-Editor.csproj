@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{58F1416C-F4D8-772A-47A9-CC36070A7216}</ProjectGuid>
+    <ProjectGuid>{D2B0E130-D1FC-6ED2-EA77-40B749DE7378}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -274,10 +274,10 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="MLAPI">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Assets/MLAPI/Lib/MLAPI.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Assets/MLAPI/Lib/MLAPI.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -634,54 +634,54 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="projectCloner">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/projectCloner.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/projectCloner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{CF912632-D9EE-E422-A57C-FA41EE443541}</Project>
+      <Project>{340BB6D7-DA72-373D-62B9-31C6BBA84A2E}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>

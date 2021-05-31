@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{CF912632-D9EE-E422-A57C-FA41EE443541}</ProjectGuid>
+    <ProjectGuid>{340BB6D7-DA72-373D-62B9-31C6BBA84A2E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,22 +64,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\AudioManager.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\InputSystem\Scripts\MovePlayer.cs" />
     <Compile Include="Assets\InputSystem\Scripts\RotatePlayer.cs" />
     <Compile Include="Assets\InputSystem\Scripts\Shoot.cs" />
-    <Compile Include="Assets\MainMenu.cs" />
-    <Compile Include="Assets\PauseMenu.cs" />
-    <Compile Include="Assets\Scripts\BulletController.cs" />
+    <Compile Include="Assets\Scripts\Audio\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Audio\Sound.cs" />
     <Compile Include="Assets\Scripts\DetectControlMethod.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Enemy\EnemyHealthManager.cs" />
-    <Compile Include="Assets\Scripts\GunController.cs" />
     <Compile Include="Assets\Scripts\Player\HurtPlayer.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerHealthManager.cs" />
-    <Compile Include="Assets\SettingsMenu.cs" />
-    <Compile Include="Assets\Sound.cs" />
+    <Compile Include="Assets\Scripts\UI\Billboard.cs" />
+    <Compile Include="Assets\Scripts\UI\EnemyHealthBar.cs" />
+    <Compile Include="Assets\Scripts\UI\GameOverMenuUI.cs" />
+    <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\UI\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\UI\ScoreScript.cs" />
+    <Compile Include="Assets\Scripts\UI\SettingsMenu.cs" />
+    <Compile Include="Assets\Scripts\Weapon\BulletController.cs" />
+    <Compile Include="Assets\Scripts\Weapon\GunController.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\MLAPI\Lib\MLAPI.xml" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
@@ -280,7 +286,7 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
     <Reference Include="MLAPI">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Assets/MLAPI/Lib/MLAPI.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Assets/MLAPI/Lib/MLAPI.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -637,43 +643,43 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InputSystem">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="projectCloner">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/projectCloner.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/projectCloner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>D:/UnityProjects/Top-Down Shooter/Top-Down/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>D:/UnityProjects/ATechnos/Top-Down-Shooter/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>

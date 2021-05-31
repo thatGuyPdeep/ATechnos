@@ -12,7 +12,7 @@ public class EnemyController : MonoBehaviour
     void Start()
     {
         myRB = GetComponent<Rigidbody>();
-       thePlayer = FindObjectOfType<MovePlayer>();
+        thePlayer = FindObjectOfType<MovePlayer>();
     }
 
     void FixedUpdate()

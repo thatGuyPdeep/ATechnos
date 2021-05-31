@@ -4,37 +4,32 @@ using UnityEngine;
 
 public class PlayerHealthManager : MonoBehaviour
 {
-    public int startingHealth;
+    public int maxHealth;
     public int currentHealth;
 
-    /*
-    public float flashLength;
-    private float flashCounter;
+    public HealthBar healthBar;
 
-    private Renderer rend;
-    private Color storedColor;
-    */
+    public bool gameOver;
 
     void Start()
     {
-        currentHealth = startingHealth;
-       // rend = GetComponent<Renderer>();
-        //storedColor = rend.material.GetColor("_Color");
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(currentHealth <= 0)
         {
             FindObjectOfType<AudioManager>().Play("PlayerDeath");
             gameObject.SetActive(false);
+            FindObjectOfType<GameManager>().EndGame();
         }
     }
+
     public void HurtPlayer(int damageAmount)
     {
         currentHealth -= damageAmount;
-        //flashCounter = flashLength;
-        //rend.material.SetColor("_Color", Color.white);
+        healthBar.SetHealth(currentHealth);
     }
 }
